@@ -3,11 +3,64 @@
 <head>
 <meta charset="UTF-8">
 <title>Request Account Deletion</title>
+<style>
+  /* Global styles */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #1e1e2f;
+    color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    background: #2b2b3f;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.6);
+    max-width: 500px;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #ff5555;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+
+  a {
+    color: #50fa7b;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .note {
+    font-size: 14px;
+    color: #bbb;
+    margin-top: 10px;
+  }
+</style>
 </head>
 <body>
-<h1>Delete Your Account</h1>
-<p>To delete your account and all associated data from <strong>[Your App Name]</strong>, please send an email to <a href="mailto:azimjonxolmirzayev30@gmail.com">azimjonxolmirzayev30@gmail.com</a>.</p>
-<p>Include the email address linked to your account. We will delete your Firebase Authentication account, Firestore data, and any other personal data linked to your account.</p>
-<p>Some anonymized analytics data may be retained for up to 6 months.</p>
+<div class="container">
+  <h1>Delete Your Account</h1>
+  <p>To delete your account and all associated data from <strong>[Your App Name]</strong>, please send an email to <a href="mailto:azimjonxolmirzayev30@gmail.com">azimjonxolmirzayev30@gmail.com</a>.</p>
+  <p>Include the email address linked to your account. We will delete your Firebase Authentication account, Firestore data, and any other personal data linked to your account.</p>
+  <p class="note">Some anonymized analytics data may be retained for up to 6 months.</p>
+</div>
 </body>
 </html>
